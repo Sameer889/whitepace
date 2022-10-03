@@ -1,0 +1,639 @@
+/* font-family */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* font-family: 'Inter', sans-serif; */
+
+/* universal selection */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* html styling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* body */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* header */
+.header {
+    background: #043873;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    position: relative;
+}
+
+/* login */
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 20px;
+}
+
+/* login-btn */
+.header .login .login-btn {
+    width: 126px;
+    height: 60px;
+    background: #FFE492;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: #043873;
+    border: none;
+    cursor: pointer;
+}
+
+/* try button */
+.header .login .Tryout-btn {
+    width: 227px;
+    height: 60px;
+    background: #4F9CF9;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* hamburger */
+.header .login .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    cursor: pointer;
+}
+
+/* hamburger lines */
+.header .login .hamburger .line {
+    width: 42px;
+    height: 0px;
+    border: 2px solid #fff;
+}
+
+/* hero-section */
+.hero-section {
+    background: #043873;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 140px 32px;
+    isolation: isolate;
+    position: relative;
+}
+
+/* hero-section element */
+.hero-section .element {
+    position: absolute;
+    width: 1470.08px;
+    left: calc(50% - 1591.08px/2 - 0.06px);
+    top: 23.19%;
+    bottom: 10.82%;
+    opacity: 0.8;
+}
+
+/* hero-section element image responsive */
+.hero-section .element img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* hero-section heading */
+.hero-section .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 60px;
+    width: 562px;
+    height: 361px;
+}
+
+/* hero-section heading h2 */
+.hero-section .heading h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    width: 562px;
+    height: 154px;
+}
+
+/* hero-section heading para */
+.hero-section .heading p {
+    width: 562px;
+    height: 60px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+/* hero-section try out button */
+.hero-section .heading .Tryout-btn {
+    width: 219px;
+    height: 63px;
+    background: #4F9CF9;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* hero-section image-container */
+.hero-section .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 2.55px;
+    margin-left: 170px;
+}
+
+/* hero-section image-container box style */
+.hero-section .image-container .box {
+    width: 526px;
+    height: 350.45px;
+    background: #C4DEFD;
+    max-width: 100%;
+}
+
+/* pricing section */
+.pricing-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 140px 32px;
+    gap: 60px;
+    position: relative;
+}
+
+/* pricing section heading texture */
+.pricing-section .heading img {
+    position: absolute;
+    right: 400px;
+    top: 190px;
+    z-index: -1;
+}
+
+/* pricing section main heading */
+.pricing-section .heading h2 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #212529;
+}
+
+/* pricing section paragraph */
+.pricing-section .heading p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #212529;
+    width: 979px;
+    height: 60px;
+    margin-top: 24px;
+}
+
+/* price lists */
+.price-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+}
+
+/* price boards */
+.price-board {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 44px;
+    gap: 25px;
+    width: 341.33px;
+    height: 697px;
+    background: #fff;
+    border: 1px solid #FFE492;
+    border-radius: 10px;   
+}
+
+/* price boards on hover */
+.price-board:hover {
+    padding: 80px 44px;
+    height: 853px;
+    background: #043873;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
+    color: #fff;
+    transition: all 0.3s;
+}
+
+/* price board text block for para */
+.price-board .text-block p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #212529;
+}
+
+/* price board text block for para on hover */
+.price-board:hover .text-block p {
+    color: #fff;
+}
+
+/* price board text block for price */
+.price-board .text-block h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #212529;
+    margin: 24px auto;
+}
+
+/* price board text block for price on hover */
+.price-board:hover .text-block h4 {
+    color: #FFE492;
+}
+
+/* price board text block for subtitle */
+.price-board .text-block .sub-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: #212529;
+}
+
+/* price board un-ordered list style */
+.price-board ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 28px;
+    width: 280.33px;
+    height: 340px;
+}
+
+/* price board list style */
+.price-board ul li {
+    background: url("../images/Icon.png") no-repeat left center;
+    list-style: none;
+    margin: 0;
+    vertical-align: middle;
+    padding: 5px 10px 5px 35px;
+}
+
+/* price board un-ordered list on hover (Changing the color of the icon) */
+.price-board:hover ul li {
+    background: url("../images/Icon-1.png") no-repeat left center;
+}
+
+/* price board btn */
+.price-board button {
+    padding: 16px 40px;
+    background: #fff;
+    border: 1px solid #FFE492;
+    border-radius: 8px;
+    width: 166px;
+    height: 51px;
+    cursor: pointer;
+    margin-top: 35px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* price board btn on hover */
+.price-board:hover button {
+    background: #4F9CF9;
+    border: none;
+    color: #fff;
+}
+
+/* Dot btn container */
+.dot-btn {
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+/* dots */
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: #4F9CF9;
+    border-radius: 50%;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+/* dots when active */
+.dot:active {
+    background-color: #043873;
+}
+
+/* free trial */
+.free-trial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 140px 32px 32px;
+    gap: 40px;
+    position: relative;
+    background-color: #043873;
+}
+
+/* free trial main heading */
+.free-trial .heading h1 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+/* free trial main para */
+.free-trial .heading p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-top: 30px;
+}
+
+/* free trial button */
+.free-trial .Tryout-btn {
+    padding: 20px 40px;
+    width: 241px;
+    height: 63px;
+    background: #4F9CF9;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+}
+
+/* free trial para */
+.free-trial p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+/* free trial app .app-icon */
+.free-trial .app-icon {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+/* footer section */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 140px 32px 32px;
+    gap: 200px;
+    position: relative;
+    background: #043873;
+}
+
+/* footer section main content */
+footer .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+/* footer section content info section */
+footer .content .info-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+/* info section logo description */
+footer .content .info-section .logo-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+/* logo description img */
+footer .content .info-section .logo-description img {
+    width: 191px;
+    height: 34px;
+}
+
+/* logo description para */
+footer .content .info-section .logo-description p {
+    width: 240px;
+    height: 120px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #F7F7EE;
+}
+
+/* info-section all info */
+footer .content .info-section .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    height: 127px;
+    width: 177px;
+}
+
+/* footer section all infos paragraphs */
+footer .content .info-section .info p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+/* info ul style */
+footer .content .info-section .info ul {
+    list-style: none;
+}
+
+/* info list items style */
+footer .content .info-section .info ul li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin-bottom: 20px;
+    width: 129px;
+    cursor: pointer;
+}
+
+/* info list items on hover */
+footer .content .info-section .info ul li:hover {
+    color: #FFE492;
+}
+
+/* info try it yourself content */
+footer .content .info-section .try-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 23px;
+    width: 259px;
+    height: 182px;
+}
+
+/* info try it yourself heading */
+footer .content .info-section .try-btn h5 {
+    width: 155px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+/* info try it yourself para */
+footer .content .info-section .try-btn p {
+    width: 259px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+/* info try it yourself button */
+footer .content .info-section .try-btn button {
+    padding: 20px 40px;
+    width: 186px;
+    height: 60px;
+    background: #4F9CF9;
+    border-radius: 8px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* themantic break */
+hr {
+    width: 100%;
+    border: 1px solid #2E4E73;
+}
+
+/* footer content bottom section */
+footer .content .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 440px;
+}
+
+/* bottom section terms ul style */
+footer .content .bottom .terms ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 60px;
+}
+
+/* bottom section terms ul list style */
+footer .content .bottom .terms ul li {
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+/* bottom section social icons container */
+.footer .content .bottom .social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    width: 105px;
+}
+
+/* bottom section icons style */
+.fa-brands {
+    width: 9px;
+    height: 16.68px;
+    color: #fff;
+    margin: 0px 10px;
+    cursor: pointer;
+}

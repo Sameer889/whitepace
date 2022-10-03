@@ -1,0 +1,248 @@
+/* For Mobile Screen */
+@media only screen and (max-width: 480px) {
+
+    /* header */
+    .header {
+        width: 480px;
+    }
+
+    /* header login buttons */
+    .header .login button {
+        display: none;
+    }
+
+    /* hero-section */
+    .hero-section {
+        flex-direction: column;
+        justify-content: center;
+        padding: 80px 16px;
+        gap: 100px;
+        width: 480px;
+    }
+
+    /* hero-section element */
+    .hero-section .element {
+        width: 1035.08px;
+    }
+
+    /* hero-section heading content */
+    .hero-section .heading {
+        width: 480px;
+    }
+
+    /* hero-section heading  */
+    .hero-section .heading h2 {
+        font-size: 54px;
+        width: 437px;
+        height: 118px;
+        line-height: 57px;
+        text-align: center;
+        margin: 0px auto;
+    }
+
+    /* hero-section heading paragraph */
+    .hero-section .heading p {
+        text-align: center;
+        width: 480px;
+        margin: 0px auto;
+        padding: 0px 95px;
+    }
+
+    /* hero-section button */
+    .hero-section .heading .Tryout-btn {
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    /* hero-section image container */
+    .hero-section .image-container {
+        margin: 0px auto;
+    }
+
+    /* hero-section image-container box */
+    .hero-section .image-container .box {
+        width: 430px;
+        height: 191px;
+    }
+
+    /* pricing section */
+    .pricing-section {
+        width: 480px;
+        padding: 80px 16px;
+        gap: 60px;
+    }
+
+    /* pricing section main heading */
+    .pricing-section .heading h2 {
+        font-size: 36px;
+        line-height: 44px;
+        width: 296px;
+        margin: 0 auto;
+    }
+
+    /* pricing section heading texture */
+    .pricing-section .heading img {
+        left: 200px;
+        width: 96px;
+        top: 152px;
+        height: 20px;
+    }
+
+    /* pricing section paragraph */
+    .pricing-section .heading p {
+        width: 288px;
+        height: 150px;
+    }
+
+    /* hide the .price-board-1 and .price-board-3 */
+    .price-board-1,
+    .price-board-3 {
+        display: none;
+    }
+
+    /* display the carousel button container */
+    .dot-btn {
+        display: flex;
+        margin-bottom: -50px;
+    }
+
+    /* display the button */
+    .dot {
+        display: block;
+    }
+
+    /* free trial section */
+    .free-trial {
+        align-items: flex-start;
+        padding: 100px 16px 32px;
+    }
+
+    /* free trial main heading */
+    .free-trial .heading h1 {
+        width: 400px;
+        font-size: 50px;
+        line-height: 52px;
+        text-align: left;
+    }
+
+    /* free trial section para */
+    .free-trial .heading p {
+        font-size: 18px;
+        text-align: left;
+        width: 288px;
+    }
+
+    /* free trial button */
+    .free-trial .Tryout-btn {
+        width: 265px;
+        height: 60px;
+        border-radius: 6px;
+    }
+
+    /* footer */
+    footer {
+        padding: 140px 16px 32px;
+        width: 480px;
+    }
+
+    /* footer content */
+    footer .content {
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        width: 288px;
+    }
+
+    /* footer info section */
+    footer .content .info-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        width: 288px;
+    }
+
+    /* footer info-section logo description */
+    footer .content .info-section .logo-description {
+        align-items: center;
+        gap: 24px;
+        width: 288px;
+    }
+
+    /* footer .info-section .logo-description para */
+    footer .content .info-section .logo-description p {
+        text-align: center;
+        width: 288px;
+    }
+
+    /* footer .info-section info */
+    footer .content .info-section .info {
+        justify-content: center;
+        align-items: center;
+        width: 288px;
+        margin: 20px auto;
+    }
+
+    /* footer info para */
+    footer .content .info-section .info p {
+        text-align: center;
+    }
+
+    /* footer info ul list items */
+    footer .content .info-section .info ul li {
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        width: 288px;
+    }
+
+    /* footer try button content */
+    footer .content .info-section .try-btn {
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* footer try button content heading */
+    footer .content .info-section .try-btn h5 {
+        text-align: center;
+    }
+
+    /* footer try button content para */
+    footer .content .info-section .try-btn p {
+        width: 199px;
+        height: 90px;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    /* footer try button content button */
+    footer .content .info-section .try-btn button {
+        width: 196px;
+        height: 70px;
+    }
+
+    /* hide themantical break */
+    hr {
+        display: none;
+    }
+
+    /* footer bottom section */
+    footer .content .bottom {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width: 288px;
+    }
+
+    /* footer bottom section terms ul */
+    footer .content .bottom .terms ul {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 0px 20px;
+        gap: 20px;
+        width: 288px;
+        border-bottom: 1px solid #234373;
+    }
+}
